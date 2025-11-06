@@ -1,3 +1,4 @@
+# Project is from https://www.codedex.io/projects/create-a-gif-with-python
 import imageio.v3 as iio
 
 filenames = ['team-pic1.png', 'team-pic2.png']
