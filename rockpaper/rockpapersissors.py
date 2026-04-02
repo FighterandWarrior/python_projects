@@ -11,7 +11,6 @@
 
 import random
 
-
 while True:
         
     user_action = input("Pick a choice (rock, paper, scissors): ")
