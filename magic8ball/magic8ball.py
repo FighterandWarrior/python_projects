@@ -24,27 +24,29 @@ answers = [
     "My sources say no",
     "Outlook not so good",
     "Very doubtful"
-]
+]\
 
-print('  __  __          _____ _____ _____    ___  ')
-print(' |  \/  |   /\   / ____|_   _/ ____|  / _ \ ')
-print(' | \  / |  /  \ | |  __  | || |      | (_) |')
-print(' | |\/| | / /\ \| | |_ | | || |       > _ < ')
-print(' | |  | |/ ____ \ |__| |_| || |____  | (_) |')
-print(' |_|  |_/_/    \_\_____|_____\_____|  \___/ ')
-print('')
-print('')
-print('')
-print('Hello, I am the Magic 8 Ball, What is your name?')
-
+print("  __  __          _____ _____ _____    ___   ")
+print(" |  \/  |   /\   / ____|_   _/ ____|  / _ \  ")
+print(" | \  / |  /  \ | |  __  | || |      | (_) | ")
+print(" | |\/| | / /\ \| | |_ | | || |       > _ <  ")
+print(" | |  | |/ ____ \ |__| |_| || |____  | (_) | ")
+print(" |_|  |_/_/    \_\_____|_____\_____|  \___/  ")
+print("")
+print("")
+print("")
+print("Hello, I am the Magic 8 Ball, What is your name?")
+print("")
 name = input()
-print('Hello ' + name)
+print("Hello " + name)
 
 
 def Magic8Ball():
-    print('Ask me a question. ')
+    print("Ask your question. ")
     input()
+    print("")
     print(answers[random.randint(0, len(answers)-1)] )
-    print('I hope that helped!')
+    print("")
+    print("I hope that helped!")
     
-    
+Magic8Ball()
